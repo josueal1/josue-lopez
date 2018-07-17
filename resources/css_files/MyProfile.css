@@ -1,0 +1,154 @@
+.horizontal_menu {
+    list-style-type: none;
+    margin: 0;
+    left: 350px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+       top: 0;
+      width: auto;
+    border-radius: 5px;
+}
+
+.horizontal_menu li {
+		display: inline-table;
+
+}
+
+}
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal_menu :hover {
+    background-color: gray;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+}
+
+
+body {
+  font-size: 100%;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/wallpapers/School-Chalkboard-Backgrounds.jpg");
+  background-size: 1440px 764px;
+  
+
+}
+
+hr {
+  max-width: 1340px;
+}
+
+h3 {
+  background-color: gold;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px, white;
+  border-style: double;
+}
+
+div h1 {
+  font-style: normal;
+  font-family: Chalkduster;
+  font-size: 60px;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+}
+
+p {
+  max-width: 600px;
+  text-align: center;
+}
+
+div section {
+  border: 2px, white;
+  border-style: solid;
+  min-height: 300;
+  min-width: 300;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  display: block;
+   margin: auto;
+   width: 40%;
+}
+
+div h3 {
+  max-width: 1300px;
+  max-height: 100px;
+
+}
+
+div {
+  text-align: center;
+}
+
+.contact-info-box {
+  background-color: blue
+  border: 2px double white;
+  padding: 10px;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+div input {
+
+  max-width: 200px;
+  height: 20px;
+}
