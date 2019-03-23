@@ -1,0 +1,18 @@
+To add a section of Food Blogs, where I talk about my experiences 
+of cooking my favorite foods and recipes.
+
+These blogs html pages will be modularized, just like NodeJS Express HBS
+
+there will be an overall LAYOUT:
+
+- also, the "views/pages/blog1.hbs" will follow the outline:
+
+1. Title of Food
+1.5. Date (import datetime?)
+2. What do you think about this recipe? How much do you like it? How did you come across it?
+3. A PICTURE
+4. The items I used: Nicely styled Bulleted List
+5. Procedures: A youtube video
+6. Cordial thank you note
+
+
