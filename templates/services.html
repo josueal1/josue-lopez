@@ -1,0 +1,44 @@
+{%extends "layout.html"%}
+
+{%block content%}
+
+<!-- Insert Body Stuff Here -->
+<div class="container"> 
+	<div class="section">
+		<div class="row">
+			{%for s in services%}
+			<div class="col s12 m5" >
+				<div class="icon-block">
+					<h2 class="center blue-text"> <i class="medium material-icons">{{s.icon}}</i> </h2>
+					<h5 class="center"> {{s.title}} </h5>
+					<p class="light"> {{s.message}} </p>
+					<div class="center">
+						<a href="{{s.href}}" class="btn waves-effect waves-light">{{s.link_title}}</a>
+					</div>
+				</div>
+			</div>
+			{%endfor%}
+		</div>
+	</div>
+</div>
+
+
+<!-- Mock-Technical Interviews (Free)
+
+
+ -->
+
+<!-- 
+
+	About Sections attributes:
+
+	 {"icon":"",
+	  "title":"",
+	  "message":"",
+	  "href":""
+	  "link_title":""
+	 }
+	 
+ -->
+	
+{%endblock content%}
