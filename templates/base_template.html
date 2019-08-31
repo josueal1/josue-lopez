@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	{% block stylesheets %}
+	<!--Import Google Icon Font-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!--Import materialize.css-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="/static/main.css">
+  	{% endblock %}
+
+</head>
+
+<body  class="blue-grey lighten-3" >
+	<div class="container">
+		
+		<!-- START Nav Bar Div  -->
+		<nav class="nav-wrapper z-depth-0 transparent"role="navigation"> 
+		<div class="container"> 
+			<a href="#" class="sidenav-trigger" data-target="mobile-links" ><i class="material-icons black-text">menu</i></a>
+			<!-- Make the mobile navbar the same as laptop -->
+			<ul class="hide-on-med-and-down right" >
+				<li><a id="nav-web-menu-id" href="/about"> About </a> </li>
+				<li><a id="nav-web-menu-id" href="#contact"> Contact </a></li>
+				<li><a id="nav-web-menu-id" href="#recommendations"> Recommendations </a></li>
+				<li><a id="nav-web-menu-id" href="/portfolio"> iPhoneography Portfolio</a></li>
+		<!-- 		<li><a href="/services"> Services </a></li> -->
+		<!-- 		<li><a id="nav-web-menu-id" href="/blog"> Blog </a></li> -->
+	      	</ul>
+		</div>
+		</nav>
+
+
+		<ul id="mobile-links" role="navigation" class="sidenav">
+			<li><a href="#"> Home </a></li>
+			<li><a href="#about"> About </a> </li>
+			<li><a href="#contact"> Contact </a></li>
+			<li><a href="#recommendations"> Recommendations </a></li>
+			<li><a href="/portfolio"> iPhoneography Portfolio</a></li>
+		<!-- 	<li><a href="/services"> Services </a></li> -->
+		<!-- 	<li><a href="/blog"> Blog </a></li> -->
+		</ul>
+		<!-- END Nav Bar Div -->
+
+
+		{% block content %}
+		{% endblock content%}
+
+	</div>
+
+
+</body>
+</html>
+
+
+

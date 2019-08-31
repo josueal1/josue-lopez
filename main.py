@@ -17,7 +17,7 @@ def utility_processor():
 
 ROOT_URL = "/"
 @app.route(ROOT_URL)
-# @app.route("/about")
+@app.route("/about")
 def about():
 	return render_template("home.html", page_title="About", SOCIAL_LINKS=SOCIAL_LINKS)
 
@@ -39,6 +39,10 @@ def blog():
 def rec():
 	return render_template("recommendations.html", page_title="Recommended Learning", recommendations=VID_RECOMMENDATIONS)
 
+
+@app.route("/portfolio")
+def portfolio():
+	return render_template("portfolio.html")
 
 
 if __name__ == "__main__":

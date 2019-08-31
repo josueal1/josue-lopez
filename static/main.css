@@ -116,6 +116,7 @@ body{
 #scroll-btn{
   animation: myfirst 5s;
   animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 }
 
 @keyframes myfirst {
