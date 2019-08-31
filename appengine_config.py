@@ -1,5 +1,14 @@
-# it was important to run this file inside AppEngine environment
-# because then it understood how to run my app
+# Delete old folder on App Engine
+
+# Clone the new folder from Github
+
+# sudo pip install -r requirements
+
+
+# gcloud init
+
+
+# gcloud app deploy
 
 from google.appengine.ext import vendor
 
