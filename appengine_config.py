@@ -1,11 +1,10 @@
-# Delete old folder on App Engine
+# Delete old folder on App Engine terminal
 
 # Clone the new folder from Github
 
-# sudo pip install -r flask
+# sudo pip install -r requirements -t lib
 
 # gcloud init
-
 
 # gcloud app deploy
 
