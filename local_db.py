@@ -33,3 +33,6 @@ BLOG_POSTS = [	{"title": "My First Blog Post", "content": "on June 21st, I ran."
 
 
 VID_RECOMMENDATIONS = ["PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU","PLAE85DE8440AA6B83","PL27BCE863B6A864E3", "PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff"]
+
+
+LIFE_EVENTS = ["Decided to Switch Majors in Software Engineering - Aug 30th 2019"]
