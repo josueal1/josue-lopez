@@ -2,8 +2,7 @@
 
 # Clone the new folder from Github
 
-# sudo pip install -r requirements
-
+# sudo pip install -r flask
 
 # gcloud init
 
