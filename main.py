@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for
 from datetime import datetime
-from local_db import SOCIAL_LINKS, SERVICES, BLOG_POSTS, VID_RECOMMENDATIONS
+from local_db import SOCIAL_LINKS, SERVICES, BLOG_POSTS, VID_RECOMMENDATIONS, NAV_LINKS
 
 app = Flask(__name__)
 
@@ -19,7 +19,7 @@ ROOT_URL = "/"
 @app.route(ROOT_URL)
 @app.route("/about")
 def about():
-	return render_template("home.html", page_title="About", SOCIAL_LINKS=SOCIAL_LINKS)
+	return render_template("home.html", page_title="About", SOCIAL_LINKS=SOCIAL_LINKS, NAV_LINKS=NAV_LINKS)
 
 # @app.route("/services")
 # def help():

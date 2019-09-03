@@ -10,6 +10,12 @@ SOCIAL_LINKS = [Link("LinkedIn","https://www.linkedin.com/in/josue-a-lopez/"),
 				Link("Twitter", "https://www.twitter.com/galvez2j")
 		 	   ]
 
+NAV_LINKS = [Link("About","/about"),
+			 Link("Contact","#contact"),
+			 Link("Recommendations","#recommendations"),
+			 Link("iPhoneography Portfolio","/portfolio"),
+			 Link("Services","/services")
+			]
 
 SERVICES = [
 	{ "icon": "perm_contact_calendar",

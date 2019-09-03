@@ -56,8 +56,8 @@ body{
 	font-size: 1.5em;
 	display: flex;
 	    /*left-right, up-down, z-coord*/
-	text-shadow: -2px -2px 3px rgba(255,255,255,3.0);
-	color: black;
+	/*text-shadow: -2px -2px 3px rgba(255,255,255,3.0);*/
+	/*color: black;*/
 	overflow: hidden;
 	border-right: .15em solid orange;
 	white-space: nowrap;
@@ -70,6 +70,7 @@ body{
 
 #motto-line {
   display: inline-flex;
+  color:white;
 }
 
 /* The typing effect */
