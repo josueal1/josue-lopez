@@ -15,6 +15,7 @@ NAV_LINKS = [Link("About","/about"),
 			 Link("Recommendations","#recommendations"),
 			 Link("iPhoneography Portfolio","/portfolio"),
 			 Link("Services","/services")
+			 Link("Blog", "/blog")
 			]
 
 SERVICES = [

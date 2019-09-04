@@ -21,9 +21,9 @@ ROOT_URL = "/"
 def about():
 	return render_template("home.html", page_title="About", SOCIAL_LINKS=SOCIAL_LINKS, NAV_LINKS=NAV_LINKS)
 
-# @app.route("/services")
-# def help():
-# 	return render_template("services.html", page_title="Services", services=SERVICES)
+@app.route("/services")
+def services():
+	return render_template("services.html", page_title="Services", SERVICES=SERVICES)
 
 
 # @app.route("/contact")
