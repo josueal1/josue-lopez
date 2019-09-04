@@ -14,7 +14,7 @@ NAV_LINKS = [Link("About","/about"),
 			 Link("Contact","#contact"),
 			 Link("Recommendations","#recommendations"),
 			 Link("iPhoneography Portfolio","/portfolio"),
-			 Link("Services","/services")
+			 Link("Services","/services"),
 			 Link("Blog", "/blog")
 			]
 
