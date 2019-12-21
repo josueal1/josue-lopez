@@ -1,2 +1,4 @@
+# Python Runtime, Compiled, Env Settings Files
 venv/
-/*.pyc
+__pycache__/
+*.pyc
