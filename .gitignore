@@ -2,3 +2,6 @@
 env/
 __pycache__/
 *.pyc
+
+# Visual Studio Code Workspace Settings
+.vscode/
