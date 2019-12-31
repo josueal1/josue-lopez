@@ -46,9 +46,4 @@ def portfolio():
 
 
 if __name__ == "__main__":
-	# app.run(debug=True)
-	app.run()
-
-# alternatively, we can use the Unix Command:
-# "export FLASK_DEBUG=1" && "flask run"
-# in order to achieve debug mode
+	app.run(debug=True)
