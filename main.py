@@ -8,9 +8,7 @@ app.config['SECRET_KEY'] = '2e9cddbf90516b76b574b4b2411b43a0'
 
 @app.context_processor
 def utility_processor():
-	'''A context processor is a function that returns a dictionary. The keys and 
-	values of his dictionary are then merged with the template context, for all 
-	templates in the app'''
+	'''The items in the return dict are available within all the templates in the app.'''
 	current_date = datetime.now()
 	return dict(footer_date=current_date, python_dir=dir())
 	
