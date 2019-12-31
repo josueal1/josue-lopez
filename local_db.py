@@ -46,10 +46,8 @@ BLOG_POSTS = [	{"title": "My First Blog Post", "content": "Because of the prolif
 VID_RECOMMENDATIONS = ["PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU","PLAE85DE8440AA6B83","PL27BCE863B6A864E3", "PL4cUxeGkcC9gGrbtvASEZSlFEYBnPkmff"]
 
 
-LIFE_EVENTS = ["Decided to Switch Majors in Software Engineering - Aug 30th 2019"]
-
-TIMELINE_EVENTS = [ Event("April 2017", "Confirmed offer letter from UC Irvine! Zot, Zot! :emoji: "),
-					Event("Aug 30th 2019", "Decided to Switch Majors in Software Engineering"),
+LIFE_EVENTS = [ Event("April 2017", "Confirmed offer letter from UC Irvine! Zot, Zot! :emoji: "),
 					Event("July 2017","Flew out to Seattle, WA for Google's Computer Science Summer Institute!"),
-					Event("August 2017", "Completed UCI's summer bridge CSSA !")
+					Event("August 2017", "Completed UCI's summer bridge CSSA !"),
+					Event("August 2019", "Switched major from CS to Software Engineering")
 				  ]
