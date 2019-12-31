@@ -1,3 +1,8 @@
+# Python Runtime, Compiled, Env Settings Files
 env/
-
+__pycache__/
 *.pyc
+
+# Visual Studio Code Workspace Settings
+.vscode/
+
