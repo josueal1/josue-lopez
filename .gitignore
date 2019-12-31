@@ -1,8 +1,13 @@
-# Python Runtime, Compiled, Env Settings Files
-env/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
 # Visual Studio Code Workspace Settings
 .vscode/
 
+# Distribution / packaging
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
