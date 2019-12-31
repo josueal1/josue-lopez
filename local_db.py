@@ -34,7 +34,7 @@ SERVICES = [
 ]
 
 
-BLOG_POSTS = [	{"title": "My First Blog Post", "content": "on June 21st, I ran."}, 
+BLOG_POSTS = [	{"title": "My First Blog Post", "content": "Because of the rapid increase of personal-commercialization, as sophomore undergrad, I decided to take-on the world with a keyboard and a screen (plus some wifi). Like anyone else, I have: life-goals, entrepreneural ambitions, and wild tech-visions. Through this blog, I intend to share with the world."}, 
 				{"title": "My Second Blog Post", "content": "This is just a test."}
 			 ]
 
