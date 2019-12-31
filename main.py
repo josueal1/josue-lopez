@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for
 from datetime import datetime
-from local_db import SOCIAL_LINKS, SERVICES, BLOG_POSTS, VID_RECOMMENDATIONS, NAV_LINKS
+from local_db import SOCIAL_LINKS, SERVICES, BLOG_POSTS, VID_RECOMMENDATIONS, NAV_LINKS, LIFE_EVENTS
 
 app = Flask(__name__)
 
@@ -9,8 +9,7 @@ app.config['SECRET_KEY'] = '2e9cddbf90516b76b574b4b2411b43a0'
 @app.context_processor
 def utility_processor():
 	'''The items in the return dict are available within all the templates in the app.'''
-	current_date = datetime.now()
-	return dict(footer_date=current_date, python_dir=dir())
+	return dict(footer_date=datetime.now(), timeline_events=LIFE_EVENTS)
 	
 
 ROOT_URL = "/"
