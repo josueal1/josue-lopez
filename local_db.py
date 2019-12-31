@@ -3,6 +3,10 @@ class Link:
 		self.href = href
 		self.name = name
 
+class Event:
+	def __init__(self, date, detail):
+		self.date = date
+		self.detail = detail
 
 SOCIAL_LINKS = [Link("LinkedIn","https://www.linkedin.com/in/josue-a-lopez/"),
 				Link("Github", "https://github.com/josueal1"),
@@ -43,3 +47,9 @@ VID_RECOMMENDATIONS = ["PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU","PLAE85DE8440AA6B83"
 
 
 LIFE_EVENTS = ["Decided to Switch Majors in Software Engineering - Aug 30th 2019"]
+
+TIMELINE_EVENTS = [ Event("April 2017", "Confirmed offer letter from UC Irvine! Zot, Zot! :emoji: "),
+					Event("Aug 30th 2019", "Decided to Switch Majors in Software Engineering"),
+					Event("July 2017","Flew out to Seattle, WA for Google's Computer Science Summer Institute!"),
+					Event("August 2017", "Completed UCI's summer bridge CSSA !")
+				  ]
