@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# PyCharm / IntelliJ Workspace Settings
+.idea/
+
 # Visual Studio Code Workspace Settings
 .vscode/
 
