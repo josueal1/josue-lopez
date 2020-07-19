@@ -6,3 +6,5 @@ __pycache__/
 # Visual Studio Code Workspace Settings
 .vscode/
 
+# Mac OS Files
+.DS_Store
