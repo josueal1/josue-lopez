@@ -1,10 +1,10 @@
-{%extends "layout.html"%}
+{%extends "base_template.html"%}
 
 {%block content%}
 
 	<div class="row">
 		{%for playlistID in recommendations%}
-		<div class="col s12 m3">
+		<div class="col s12 m6 l4" style="padding: .5rem;">
 			<div class="video-container">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list={{playlistID}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>

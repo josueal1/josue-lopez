@@ -1,7 +1,9 @@
 class Link:
-	def __init__(self, name, href):
+	def __init__(self, name, href, attributes=""):
 		self.href = href
 		self.name = name
+		# .attr is an attribute that may hold extra_html_attributes in text
+		self.attr = attributes
 
 
 SOCIAL_LINKS = [Link("LinkedIn","https://www.linkedin.com/in/josue-a-lopez/"),
@@ -11,10 +13,10 @@ SOCIAL_LINKS = [Link("LinkedIn","https://www.linkedin.com/in/josue-a-lopez/"),
 		 	   ]
 
 NAV_LINKS = [Link("About","/about"),
-			 Link("Contact","#contact"),
-			 Link("Recommendations","#recommendations"),
+			 Link("Contact","/contact", "target='_blank'"),
+			 Link("Recommendations","/recommendations"),
 			 Link("iPhoneography Portfolio","/portfolio"),
-			 Link("Services","/services"),
+			 # Link("Services","/services"),
 			 Link("Blog", "/blog")
 			]
 
