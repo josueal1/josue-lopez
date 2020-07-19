@@ -3,15 +3,12 @@
 {% block content %}
 
 	<div class="row">
-		<div class="col s12 l4">
-			<img src="static/images/san-salvador.JPG" class="responsive-img">
+		{% for img_url in ["san-salvador.JPG", "aldrich-park.JPG", 
+		"newport-trucks-golden-hour.jpg", "newport-beach.JPG", "socal-desert-hesperia.jpg",  "fireworks.JPG"] %}
+		<div class="col xl-2 l4 m6 s12">
+			<img src="static/images/{{img_url}}" class="responsive-img">
 		</div>
-		<div class="col s12 l4">
-			<img src="static/images/aldrich-park.JPG" class="responsive-img">
-		</div>
-		<!-- <div class="col s12 l4">
-			<img src="#" class="responsive-img">
-		</div> -->
+		{% endfor %}
 	</div>
 
 
