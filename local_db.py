@@ -11,10 +11,10 @@ SOCIAL_LINKS = [Link("LinkedIn","https://www.linkedin.com/in/josue-a-lopez/"),
 		 	   ]
 
 NAV_LINKS = [Link("About","/about"),
-			 Link("Contact","#contact"),
-			 Link("Recommendations","#recommendations"),
+			 Link("Contact","/contact"),
+			 Link("Recommendations","/recommendations"),
 			 Link("iPhoneography Portfolio","/portfolio"),
-			 Link("Services","/services"),
+			 # Link("Services","/services"),
 			 Link("Blog", "/blog")
 			]
 

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, redirect
 from datetime import datetime
 from local_db import SOCIAL_LINKS, SERVICES, BLOG_POSTS, VID_RECOMMENDATIONS, NAV_LINKS
 
@@ -17,32 +17,38 @@ def utility_processor():
 
 ROOT_URL = "/"
 @app.route(ROOT_URL)
+def home():
+	return render_template("home.html", page_title="About", SOCIAL_LINKS=SOCIAL_LINKS, NAV_LINKS=NAV_LINKS)
+
 @app.route("/about")
 def about():
-	return render_template("home.html", page_title="About", SOCIAL_LINKS=SOCIAL_LINKS, NAV_LINKS=NAV_LINKS)
+	return redirect(ROOT_URL)
 
 @app.route("/services")
 def services():
 	return render_template("services.html", page_title="Services", SERVICES=SERVICES)
 
-
-# @app.route("/contact")
 # def contact():
 # 	a_contact_form = ContactForm()
 # 	return render_template("contact.html", page_title="Contact", form=a_contact_form)
 
 @app.route("/blog")
 def blog():
-	return render_template("blog.html", page_title="Tech Blog", posts=BLOG_POSTS)
+	return render_template("blog.html", page_title="TechBlog", posts=BLOG_POSTS, NAV_LINKS=NAV_LINKS)
 
 @app.route("/recommendations")
 def rec():
-	return render_template("recommendations.html", page_title="Recommended Learning", recommendations=VID_RECOMMENDATIONS)
+	return render_template("recommendations.html", page_title="Recs", recommendations=VID_RECOMMENDATIONS, NAV_LINKS=NAV_LINKS)
 
 
 @app.route("/portfolio")
 def portfolio():
-	return render_template("portfolio.html")
+	return render_template("portfolio.html", page_title="Portfolio", NAV_LINKS=NAV_LINKS)
+
+@app.route("/30min")
+@app.route("/contact")
+def calendly_redirect():
+	return redirect("https://calendly.com/josueal1/30min")
 
 
 if __name__ == "__main__":
