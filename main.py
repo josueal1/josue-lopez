@@ -50,5 +50,5 @@ if __name__ == "__main__":
 	app.run()
 
 # alternatively, we can use the Unix Command:
-# "export FLASK_DEBUG=1" && "flask run"
+# $ export FLASK_DEBUG=1 && export FLASK_APP=main.py && flask run
 # in order to achieve debug mode
