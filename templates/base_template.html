@@ -26,7 +26,7 @@
 			<!-- Make the mobile navbar the same as laptop -->
 			<ul class="hide-on-med-and-down right" >
 				{% for link in NAV_LINKS %}
-					<li><a id="nav-web-menu-id" href="{{link.href}}">{{link.name}}</a></li>
+					<li><a id="nav-web-menu-id" href="{{link.href}}" {{link.attr}}>{{link.name}}</a></li>
 				{% endfor %}
 	      	</ul>
 		</div>
@@ -35,7 +35,7 @@
 
 		<ul id="mobile-links" role="navigation" class="sidenav">
 			{% for link in NAV_LINKS %}
-				<li><a href="{{link.href}}">{{link.name}}</a></li>
+				<li><a href="{{link.href}}" {{link.attr}}>{{link.name}}</a></li>
 			{% endfor %}
 		</ul>
 		<!-- END Nav Bar Div -->
