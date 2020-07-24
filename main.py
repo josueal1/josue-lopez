@@ -21,6 +21,7 @@ def home():
 	return render_template("home.html", page_title="About", SOCIAL_LINKS=SOCIAL_LINKS, NAV_LINKS=NAV_LINKS)
 
 @app.route("/about")
+@app.route("/home")
 def about():
 	return redirect(ROOT_URL)
 
